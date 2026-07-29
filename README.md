@@ -8,17 +8,21 @@ A personal sandbox for learning and exploring C — built incrementally as I go 
 
 ### Data Structures
 
-| Project | Description |
-|---|---|
-| [`data-structures/linked_list`](./data-structures/linked_list/) | Singly linked list — insert, delete, traverse |
+| Project                                                         | Description                          |
+| --------------------------------------------------------------- | ------------------------------------ |
+| [`data-structures/linked_list`](./data-structures/linked_list/) | Singly and Doubly linked list        |
+| [`data-structures/stack`](./data-structures/stack/)             | Array and linked list based stack    |
+| [`data-structures/queue`](./data-structures/queue/)             | Linear, Circular and Deque ( Queue ) |
+
 | [`dynamic_array`](./dynamic_array/) | Dynamic array for `int` — resizable buffer with manual memory management |
 | [`dynamic_array_void`](./dynamic_array_void/) | Generic dynamic array using `void *` — type-agnostic resizable buffer |
 
 ### Systems / Networking
 
-| Project | Description |
-|---|---|
-| [`http-server`](./http-server/) | Minimal HTTP server from scratch using sockets |
+| Project                                   | Description                                    |
+| ----------------------------------------- | ---------------------------------------------- |
+| [`http-server`](./http-server/)           | Minimal HTTP server from scratch using sockets |
+| [`memory-allocator`](./memory-allocator/) | Minimal custom memory allocator from scratch   |
 
 ---
 
@@ -39,8 +43,11 @@ c-sandbox/
 ├── dynamic_array/      # ( int ) dynamic array
 ├── dynamic_array_void/ # ( generic ) dynamic array
 ├── data-structures/
-│   └── linked_list/    # singly linked list
+│   └── linked_list/    # singly and doubly linked list
+│   └── stack/    			# Array and linked list based stack
+│   └── queue/    			# Linear, circular and deque
 ├── http-server/        # minimal HTTP server
+├── memory-allocator/   # custom memory allocator
 └── README.md           # you are here
 ```
 
@@ -48,4 +55,4 @@ Each subdirectory has its own `README.md` with build instructions, usage, and no
 
 ---
 
-*This repo grows as I learn. Implementations may be rough — that's the point.*
+_This repo grows as I learn. Implementations may be rough — that's the point._
