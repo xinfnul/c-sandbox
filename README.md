@@ -13,7 +13,6 @@ A personal sandbox for learning and exploring C — built incrementally as I go 
 | [`data-structures/linked_list`](./data-structures/linked_list/) | Singly and Doubly linked list        |
 | [`data-structures/stack`](./data-structures/stack/)             | Array and linked list based stack    |
 | [`data-structures/queue`](./data-structures/queue/)             | Linear, Circular and Deque ( Queue ) |
-
 | [`dynamic_array`](./dynamic_array/) | Dynamic array for `int` — resizable buffer with manual memory management |
 | [`dynamic_array_void`](./dynamic_array_void/) | Generic dynamic array using `void *` — type-agnostic resizable buffer |
 
